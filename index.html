@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan's Webapp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img id="banner-img" src="images/bg-morn.jpg" alt="street image">
+            <div class="theme">
+                <div>Dark Mode</div>
+                <div id="theme-toggle">
+                    <i class="indicator"></i>
+                </div>
+            </div>
+            <div class="container">
+                <div id="time" class="clock" onload="displayTime()"></div>
+                <div id="date" class="dateDisplay" onload="displayDate()"></div>
+                <div id="weather-widget">
+                    <!--
+                    <div class="weather-location">
+                        <h2 class="location-timezone">Sydney</h2>
+                        <div class="weather-icon">Icon</div>
+                    </div>
+                    <div class="weather-condition">
+                        <div class="weather-temperature">
+                            <div class="deg-num">32</div>
+                            <span class="deg-measure">C</span>
+                        </div>
+                        <div class="weather-description">Warm with slight cloud</div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="news-widget">
+            <h2>World News</h2>
+        </div>    
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
